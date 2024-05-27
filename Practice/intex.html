@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>FormEnd Practice</title>
+		<!-- ======== Eugene: added BS, included _reboott.css ========= -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+			integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- ======= Intro ========= -->
+		<!-- ======== Eugene: added container-fluid bsclass ========= -->
+		<section class="intro container-fluid">
+			<div class="container">
+				<header class="header">
+					<!-- ======== Eugene: removed div ========= -->
+					<nav class="nav">
+						<a class="nav__link" href="#">Home</a>
+						<a class="nav__link" href="#">Features</a>
+						<a class="nav__link" href="#">Pricing</a>
+						<a class="nav__link" href="#">Blog</a>
+						<a class="nav__link" href="#">
+							<img  src="img/nav_1.svg" alt="boll">
+						</a>
+						<a class="nav__link" href="#">Be</a>
+					</nav>
+				</header>
+
+				<!-- ======== : replace with slider ========= -->
+				<!-- Slider main container -->
+				<div class="swiper"  >
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide">
+							<div class="intro__inner">
+								<h3 class="intro__title">Startup 1</h3>								
+								<h1 class="intro__heading">Forget About Code</h1>								
+								<h5 class="intro__subtitle">
+									Startup Framework gives you complete freedom over your
+									creative process — you don’t have to think about any technical
+									aspects. There are no limits and absolutely no coding.
+								</h5>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="intro__inner">
+								<h3 class="intro__title">Startup 2</h3>								
+								<h1 class="intro__heading">Forget About Code 2</h1>								
+								<h5 class="intro__subtitle">some text in second slide</h5>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="intro__inner">
+								<h3 class="intro__title">Startup 3</h3>								
+								<h1 class="intro__heading">Forget About Code 3</h1>								
+								<h5 class="intro__subtitle">some text in second slide</h5>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="intro__inner">
+								<h3 class="intro__title">Startup 4</h3>								
+								<h1 class="intro__heading">Forget About Code 4</h1>								
+								<h5 class="intro__subtitle">some text in second slide</h5>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="intro__inner">
+								<h3 class="intro__title">Startup 5</h3>								
+								<h1 class="intro__heading">Forget About Code 5</h1>								
+								<h5 class="intro__subtitle">some text in second slide</h5>
+							</div>
+						</div>		
+					</div>
+                    <!-- If we need navigation buttons -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+					<!-- If we need pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+				<div class="d-flex justify-content-center">
+					<button class="button btn--blue" type="button">Create an Account</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="content container-fluid">
+			<div class="container">
+				<div class="content-slide">
+					<p class="paragraph">FREE SAMPLE</p>
+				    <h2 class="content__title">Powerful Generator and Free <br> Figma Sources </h2>
+				    <p class="paragraph__subtitle">Startup Framework contains components and complex blocks which can easily be <br> integrated into almost any design. All of the components are made in the same style, and <br> can easily be integrated into projects, allowing you to create hundreds of solutions.</p>
+				</div>				
+			</div>
+		</section>
+		
+		<!-- <section class="features-block">
+			<div class="features-content">
+				<div class="image-content">
+					<img src="img/Mocbook.png" alt="Laptop">
+				</div>
+				<div class="features-text">
+					<h3>We Create Something New</h3>
+					<h5>We have created a new product that will help designers,developers and companies create websites for their startups quickly and easily.</h5>
+				</div>
+				<div class="features">
+					<div class="features-item">
+						<img src="img/commenting-1.svg" alt="#">
+						<h3>30 New feature pages</h3>
+						<p>Startup Framework contains components and complex blocks which can easily</p>
+					</div>
+					<div class="features-item">
+						<img src="img/commenting-2.svg" alt="#">
+						<h3>Useful Symbol Components</h3>
+						<p>Samples will show you the feeling on how to play around using the components.</p>
+					</div>
+				</div>
+				
+			</div>
+		</section> -->
+
+		<section class="features-container">
+			<div class="features-wrapper">
+				<div class="features-slide">
+					<div class="features-content">
+						<img class="mocbook-img" src="img/Mocbook.png" alt="laptop">
+						<h3 class="features-title">We Create Something New</h3>
+						<h5 class="features-subtitle">We have created a new product that will help designers,developers and companies create websites for their startups quickly and easily.</h5>
+						<div class="features">
+							<div class="features-item">
+								<img src="img/commenting-1.svg" alt="#">
+								<h3>30 New feature pages</h3>
+								<p>Startup Framework contains components and complex blocks which can easily</p>
+							</div>
+
+							<div class="features-item">
+								<img src="img/commenting-2.svg" alt="#">
+								<h3>Useful Symbol Components</h3>
+								<p>Samples will show you the feeling on how to play around using the components.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+
+		<section>
+			<div class="form">
+				<div class="form-content">
+					<h1>We solve digital problems with an outstanding creative flare</h1>
+					<p>We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.</p>
+				</div>
+				<div class="form-container">
+					<div class="form-register">
+						<div class="form-toggle">
+							<span class="active">SIGN UP</span>
+							<span>LOGIN</span>
+						</div>
+						<form class="register">
+							<input type="email" placeholder="Your email" required>
+							<input type="password" placeholder="Your password" required>
+							<button type="submit" class="create-account">Create an Account</button>
+							<div class="or">or</div>
+							<button type="button" class="login-twitter">Login via Twitter</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
